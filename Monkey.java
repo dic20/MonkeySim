@@ -85,8 +85,8 @@ public class Monkey {
      */
     
     public int generateId(int n) {
-	int toReturn = 100;
-	int bird = -900;
+	int toReturn = 223492;
+	/*int bird = -900;
 	for (int l=0; l <1000; l++) {
 	    for (int m = 0; m < 100; m++) {
 		bird += Math.round(Math.atan(l + m));
@@ -95,9 +95,12 @@ public class Monkey {
 	    }
 	}
 	toReturn += 10;
+    System.out.println("TO RETURN: " + toReturn);
+    */
 	toReturn += n;
 	return toReturn;
     }
+    // NOTE TO SELF, the double for loop generates the same constant every time
 
     /**
      * Monkey constructor
